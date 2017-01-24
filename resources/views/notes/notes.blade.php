@@ -2,9 +2,10 @@
 
 @section('content')
 <h2>Notes - {{ currentUser() }}</h2>
-	<ul>
+	<ul class="list-group">
 		@foreach ($notes as $note)
-			<li>
+			<li class="list-group-item">
+                <span class="label label-info">{{ $note->category->name }}</span>
 				{{ $note->note }}
 			</li>
 		@endforeach
