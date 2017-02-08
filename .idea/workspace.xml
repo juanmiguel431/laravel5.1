@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb0004f1-26bb-496c-954b-2c0bc8ac8d9a" name="Default" comment="Idiomas con laravel">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" />
+    <list default="true" id="eb0004f1-26bb-496c-954b-2c0bc8ac8d9a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/LangMiddleware.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/LangMiddleware.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Note.php" afterPath="$PROJECT_DIR$/app/Note.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/CategoryTableSeed.php" afterPath="$PROJECT_DIR$/database/seeds/CategoryTableSeed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/NoteTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/NoteTableSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/es/messages.php" afterPath="$PROJECT_DIR$/resources/lang/es/messages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/NotesTest.php" afterPath="$PROJECT_DIR$/tests/NotesTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +55,8 @@
       <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="130">
+              <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -546,7 +535,7 @@
       <workItem from="1486405898862" duration="37000" />
       <workItem from="1486489817657" duration="635000" />
       <workItem from="1486491352504" duration="1349000" />
-      <workItem from="1486556529674" duration="5409000" />
+      <workItem from="1486556529674" duration="5485000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio del proyecto">
       <created>1484843776258</created>
@@ -569,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485288095417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Idiomas con laravel">
+      <created>1486576575002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1486576575002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50915000" />
+    <option name="totallyTimeSpent" value="50991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -997,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="130">
+          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
           <folding />
         </state>
       </provider>
