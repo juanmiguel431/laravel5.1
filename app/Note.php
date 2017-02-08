@@ -11,7 +11,7 @@ class Note extends Model
     // Permite que la pripiedad note pueda ser cargada como un array a traves de metodos Note::create
     // Esta propiedad me permite asignar un valor al campo note al momento de insertar un registro.
 
-    public function category(){
+    public function Category(){
         return $this->belongsTo(Category::class);
     }
 }
