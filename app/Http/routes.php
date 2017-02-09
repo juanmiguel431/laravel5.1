@@ -37,3 +37,4 @@ Route::get('notes/edad/{edad}', [ 'middleware' => 'age:20', function ()
 ] );
 
 Route::get('lang/{lang}', 'NotesController@changeLang')->where([ 'lang' => 'en|es']);
+

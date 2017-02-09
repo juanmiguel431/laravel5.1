@@ -1,31 +1,41 @@
 <?php
 
-// use Illuminate\Foundation\Testing\WithoutMiddleware;
-// use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Foundation\Testing\WithoutMiddleware;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use App\Note;
 
 class NotesTest extends TestCase
 {
-    // use WithoutMiddleware;
-    use DatabaseTransactions;
-    
+//    use WithoutMiddleware;
+//    use DatabaseTransactions;
+
     public function test_notes_list()
     {
         // Note::truncate();
     	//Having (Teniendo dos notas)
-    	Note::create(['note' => 'My first note']);
-    	Note::create(['note' => 'second note']);
-    	
+    	//Note::create(['note' => 'My first note']);
+    	//Note::create(['note' => 'second note']);
+        //App\Note::create(['note' => 'JMPC']);
+
+        Note::create(['note' => 'JMPC']);
+
     	//When (Cuando el usuario visite notes)
+//        $this->visit('notes')
+//        	//Then (Comprobaciones - Verifica mediante un patrón que existan los siguientes textos)
+//        	->see('My first note')
+//        	->see('Second note');
+
         $this->visit('notes')
-        	//Then (Comprobaciones - Verifica mediante un patrón que existan los siguientes textos)
-        	->see('My first note')
-        	->see('Second note');
+            ->see('Hola Mundo')
+            ->see('Comentari');
+
     }
 
     public function test_create_note()
     {
+        $this->visit('notes');
+        /*
         $this->visit('notes') //Al visitar la página
             ->click('Add a note') //Al hacer click a un boton "Add a note"
             ->seePageIs('notes/create') //Si se visualiza la página 'notes/create'
@@ -34,9 +44,9 @@ class NotesTest extends TestCase
             ->press('Create note') //Presiona un botón con el texto 'Create note'
             ->seePageIs('notes') //Verifica que la página cargada es notes
             ->see('A new note') //Verifica que se visualice el texto 'A new note'
-            ->seeInDatabase('notes', [  
+            ->seeInDatabase('notes', [
                     'note' => 'A new note'
                 ]);  //Se debe encontrar en la base de datos, en la tabla 'notes', en el campo 'note', debe existir un registro con el valor 'A new note'
-
+            */
     }
 }
